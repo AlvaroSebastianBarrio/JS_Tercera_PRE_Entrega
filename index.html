@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Salario</title>
+</head>
+<body>
+    
+    <div>
+        <h1>Calculadora Sueldos</h1>
+       
+        <table class="table">
+            <tr>
+                <select id="select">
+                    <option value="default">selecione empleado</option>
+                </select>
+            </tr>
+            <hr>
+            <tr>
+                <td><label for="SueldoBruto">Ingresar Sueldo Bruto:</label></td>
+                <td><input type="text" id="SueldoBruto" name="SueldoBruto" value= ></td>
+
+            </tr>
+                        
+            <tr>
+                <td><label for="Sindicato">Aportes Sindicato (2%):</label></td>
+                <td><input type="checkbox" id="Sindicato" name="Sindicato" placeholder="Aportes sindicato"></td>
+            </tr>
+        </table> 
+        <hr>
+        <br>
+        <br>
+        
+        <button onclick=Calcular()>CALCULAR SUELDO NETO</button>
+        <script src="script.js"></script> 
+    </div>
+    
+</body>
+</html>
